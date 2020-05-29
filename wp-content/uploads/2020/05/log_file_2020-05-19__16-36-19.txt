@@ -1,0 +1,107 @@
+
+---Downloaded files---
+The import files for: Shoptimizer Demo Data were successfully downloaded!
+Initial max execution time = 180
+Files info:
+Site URL = http://localhost/OriontopClothing
+Data file = C:\xampp\htdocs\OriontopClothing/wp-content/uploads/2020/05/demo-content-import-file_2020-05-19__16-36-19.xml
+Widget file = C:\xampp\htdocs\OriontopClothing/wp-content/uploads/2020/05/demo-widgets-import-file_2020-05-19__16-36-19.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Filter Products by Price - Filter by price - Imported
+Products by Rating - Top rated products - Imported
+Product Tag Cloud - Tags - Imported
+
+Sidebar Posts : 
+
+Text - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Tag Cloud - No Title - Imported
+
+Sidebar Pages : 
+
+Recent Posts - No Title - Imported
+Meta - No Title - Imported
+Tag Cloud - No Title - Imported
+
+Below Header : 
+
+Text - No Title - Imported
+
+Top Bar Left : 
+
+Text - No Title - Imported
+
+Top Bar Center : 
+
+Text - No Title - Imported
+
+Top Bar Right : 
+
+Custom HTML - No Title - Imported
+
+Single Product Custom Area : 
+
+Text - No Title - Imported
+
+Floating Button Modal Content : 
+
+Text - No Title - Imported
+
+Cart Custom Area : 
+
+Text - No Title - Imported
+
+Checkout Custom Area : 
+
+Text - No Title - Imported
+
+Below Content : 
+
+Custom HTML - Free Worldwide shipping - Imported
+Custom HTML - Easy 30 days returns - Imported
+Custom HTML - International Warranty - Imported
+Custom HTML - 100% Secure Checkout - Imported
+
+Footer : 
+
+Text - About - Imported
+Text - Help - Imported
+Text - Follow - Imported
+Text - Sign Up - Imported
+
+Copyright : 
+
+Text - No Title - Imported
+Text - No Title - Imported
+
+Mobile Extra : 
+
+Text - No Title - Imported
+
+
+
+---pt-ocdi/after_import---
+Shoptimizer demo content imported!

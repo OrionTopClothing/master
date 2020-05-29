@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: fhpc\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Generator: Poedit 1.8.1\n"
+
+msgid "Is this tour enabled on mobile ?"
+msgstr ""
+
+msgid "Activate on mobile ?"
+msgstr ""
+
+msgid "Leave empty to apply tour to all pages"
+msgstr ""
+
+msgid "Page url"
+msgstr ""
+
+msgid "Backend"
+msgstr ""
+
+msgid "Frontend"
+msgstr ""
+
+msgid "Run once the tour ?"
+msgstr ""
+
+msgid "Run only once ?"
+msgstr ""
+
+msgid "How does the tour start ?"
+msgstr ""
+
+msgid "On click on an element"
+msgstr ""
+
+msgid "Start automatically"
+msgstr ""
+
+msgid "Select start method"
+msgstr ""
+
+msgid "Start method"
+msgstr ""
+
+msgid "This is the tour name"
+msgstr ""
+
+msgid "Tour name"
+msgstr ""
+
+msgid "Edit a tour"
+msgstr ""
+
+msgid "Tours list"
+msgstr ""
+
+msgid "Step saved"
+msgstr ""
+
+msgid "Useful if the item does not appear immediately (effect of appearance...)"
+msgstr ""
+
+msgid "Delay"
+msgstr ""
+
+msgid "Delay before showing tooltip"
+msgstr ""
+
+msgid "Defines a delay in seconds"
+msgstr ""
+
+msgid "Button \"Stop\" text"
+msgstr ""
+
+msgid "Leave this field empty if you don't want this button"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Button \"Continue\" text"
+msgstr ""
+
+msgid "Select an action"
+msgstr ""
+
+msgid "Duration"
+msgstr ""
+
+msgid "Click"
+msgstr ""
+
+msgid "Action to continue"
+msgstr ""
+
+msgid "Add a close button to stop the tour"
+msgstr ""
+
+msgid "Add a button to close the tour ?"
+msgstr ""
+
+msgid "Use overlay mask ?"
+msgstr ""
+
+msgid "Overlay"
+msgstr ""
+
+msgid "This is the step content"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Choose the tooltip position"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "On website or backend ?"
+msgstr ""
+
+msgid "Select the page (facultative)"
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+msgid "Select a dom element"
+msgstr ""
+
+msgid "Selection"
+msgstr ""
+
+msgid "No selection"
+msgstr ""
+
+msgid "Element selected"
+msgstr ""
+
+msgid "Target DOM element"
+msgstr ""
+
+msgid "Tooltip, Text or Dialog ?"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Dialog"
+msgstr ""
+
+msgid "Tooltip"
+msgstr ""
+
+msgid "This is the step title"
+msgstr ""
+
+msgid "Steps take place according to the defined order"
+msgstr ""
+
+msgid "Choose a tour"
+msgstr ""
+
+msgid "Select tour"
+msgstr ""
+
+msgid "Tour"
+msgstr ""
+
+msgid "Edit a step"
+msgstr ""
+
+msgid "Steps list"
+msgstr ""
+
+msgid "Settings saved"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Use HTTPS ?"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Use theme fonts ?"
+msgstr ""
+
+msgid "This is the \"text\" steps color"
+msgstr ""
+
+msgid "Color of the \"text\" steps"
+msgstr ""
+
+msgid "This is the dialog title color"
+msgstr ""
+
+msgid "Color of the dialog title"
+msgstr ""
+
+msgid "This is the main color"
+msgstr ""
+
+msgid "Main Color"
+msgstr ""
+
+msgid "Select the generated .zip file"
+msgstr ""
+
+msgid "WARNING: import data will overwrite existing ones!"
+msgstr ""
+
+msgid "Import here the zip file created using the \"Export\" tool."
+msgstr ""
+
+msgid "Import data"
+msgstr ""
+
+msgid "Export all this plugin datas to a zip file will can be imported on another website."
+msgstr ""
+
+msgid "Export data"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Edit Step"
+msgstr ""
+
+msgid "Steps"
+msgstr ""
+
+msgid "Edit Tour"
+msgstr ""
+
+msgid "Tours"
+msgstr ""
+
+msgid "Flat Tour Builder"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Step"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Roles allowed to see it"
+msgstr ""
+
+msgid "Everybody"
+msgstr ""
+
+msgid "Do you want to show the tour on mobile devices only ?"
+msgstr ""
+
+msgid "Activate on mobile only ?"
+msgstr ""
+
+msgid "View steps"
+msgstr ""

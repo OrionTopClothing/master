@@ -1,0 +1,10 @@
+
+# BEGIN WPEncryption
+# The directives (lines) between `BEGIN WPEncryption` and `END WPEncryption` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteCond %{REQUEST_FILENAME} !.well-known/
+RewriteRule "(^|/)\.(?!well-known)" - [F]
+</IfModule>
+# END WPEncryption

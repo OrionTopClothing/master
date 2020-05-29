@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nomorepass v1.0\n"
+"POT-Creation-Date: 2018-06-04 08:24+0200\n"
+"PO-Revision-Date: 2018-06-04 08:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: BiblioEteca Technologies SL <soporte@biblioeteca.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yesX-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: nomorepass.php:44
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: nomorepass.php:45
+msgid "Options to configure"
+msgstr "Konfigurationsoptionen"
+
+#: nomorepass.php:52
+msgid "Show login form"
+msgstr "Login-Formular anzeigen"
+
+#: nomorepass.php:61 nomorepass.php:75 nomorepass.php:89 nomorepass.php:103
+#: nomorepass.php:117
+msgid "NO"
+msgstr "nein"
+
+#: nomorepass.php:62 nomorepass.php:76 nomorepass.php:90 nomorepass.php:104
+#: nomorepass.php:118
+msgid "YES"
+msgstr "ja"
+
+#: nomorepass.php:64
+msgid "Show the user / password fields?"
+msgstr "Benutzer-/Passwortfelder anzeigen?"
+
+#: nomorepass.php:66
+msgid "Show password reset"
+msgstr "Kennwort in Reset-Form anzeigen"
+
+#: nomorepass.php:78
+msgid "Show the password field when resetting password?"
+msgstr "Zeigt das Passwortfeld beim Zurücksetzen des Passworts an?"
+
+#: nomorepass.php:80
+msgid "Auto-launch QR"
+msgstr "Autostart QR"
+
+#: nomorepass.php:92
+msgid "Launch the QR on loading login page?"
+msgstr "Starten Sie den QR beim Laden der Login-Seite?"
+
+#: nomorepass.php:94
+msgid "Auto-login after registration"
+msgstr "Auto-Login nach der Registrierung"
+
+#: nomorepass.php:106
+msgid "Auto-login after registration?"
+msgstr "Auto-Login nach der Registrierung?"
+
+#: nomorepass.php:108
+msgid "NoMorePass Only"
+msgstr "Nur NoMorePass"
+
+#: nomorepass.php:120
+msgid "Only allow logins using NoMorePass?"
+msgstr "nur Logins mit NoMorePass zulassen"
+
+#: nomorepass.php:124
+msgid "Custom button"
+msgstr "Benutzerdefinierte Schaltfläche"
+
+#: nomorepass.php:143
+msgid "Upload"
+msgstr "Upload"
+
+#: nomorepass.php:150 nomorepass.php:159
+msgid "Custom message"
+msgstr "Benutzerdefinierte Nachricht"
+
+#: nomorepass.php:154 nomorepass.php:456
+msgid ""
+"Click on <a href=\"https://nomorepass.com\">NoMorePass</a> icon and use the "
+"qrcode to login"
+msgstr ""
+"Klicken Sie auf das Symbol <a href=\"https://nomorepass.com\">NoMorePass</a> "
+"und melden Sie sich mit dem qrcode an."
+
+#: nomorepass.php:164
+msgid "More info"
+msgstr "Mehr Infos"
+
+#: nomorepass.php:206 nomorepass.php:381
+msgid "Send to NoMorePass"
+msgstr "An Mobiltelefon senden"
+
+#: nomorepass.php:240 nomorepass.php:427
+msgid ""
+"Click to scan with <a href=\"https://nomorepass.com\">NoMorePass</a> app and "
+"receive the password directly on your mobile phone"
+msgstr ""
+"Klicken Sie hier, um mit <a href=\"https://nomorepass.com\">NoMorePass</a> "
+"app zu scannen und erhalten Sie das Passwort direkt auf Ihr Mobiltelefon."
+
+#: nomorepass.php:241
+msgid "New pass for account"
+msgstr "Neuer Pass für Konto"
+
+#: nomorepass.php:261
+msgid "Enter using NoMorePass"
+msgstr "Mit NoMorePass eingeben"
+
+#: nomorepass.php:339
+msgid "Only NoMorePass login allowed."
+msgstr "Nur NoMorePass Login erlaubt"
+
+#: nomorepass.php:446
+msgid "<strong>ERROR</strong>: Please, click the NoMorePass icon."
+msgstr "<strong>ERROR</strong>: Bitte klicken Sie auf das NoMorePass-Symbol."
+
+#~ msgid ""
+#~ "Click to scan with NoMorePass app and receive the password directly on "
+#~ "your mobile phone"
+#~ msgstr ""
+#~ "Klicken Sie hier, um mit der NoMorePass-App zu scannen und das Passwort "
+#~ "direkt auf Ihrem Mobiltelefon zu erhalten."

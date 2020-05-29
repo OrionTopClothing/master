@@ -1,0 +1,24 @@
+
+
+# BEGIN Really_Simple_SSL_SECURITY_HEADERS
+<IfModule mod_headers.c>
+Header always set Strict-Transport-Security: "max-age=31536000"
+Header always set X-XSS-Protection "1; mode=block"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy: "no-referrer-when-downgrade"
+</IfModule>
+# END Really_Simple_SSL_SECURITY_HEADERS
+# BEGIN WordPress
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

@@ -1,0 +1,33 @@
+2020-05-29T13:59:50+00:00 CRITICAL Uncaught Error: Class 'WR_Nitro' not found in /home/unitedar/oriontop.xyz/wp-content/plugins/nitro-toolkit/includes/shortcode/carousel.php:123
+Stack trace:
+#0 /home/unitedar/oriontop.xyz/wp-includes/shortcodes.php(343): Nitro_Toolkit_Shortcode_Carousel->generate_html(Array, '[vc_single_imag...', 'nitro_carousel')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unitedar/oriontop.xyz/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(nitro_...', 'do_shortcode_ta...', '<p>[vc_row flex...')
+#3 /home/unitedar/oriontop.xyz/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row flex...')
+#4 /home/unitedar/oriontop.xyz/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row flex...', Array)
+#5 /home/unitedar/oriontop.xyz/wp-content/plugins/wordpress-mobile-pack/export/class-export.php(1425): apply_filters('the_content', '[vc_row flexbox...')
+#6 /home/unitedar/oriontop.xyz/wp-content/plugins/wordpress-mobile-pack/export/content.php(59): WMobilePack_Export->export_pages()
+#7 {main in /home/unitedar/oriontop.xyz/wp-content/plugins/nitro-toolkit/includes/shortcode/carousel.php on line 123
+
+2020-05-29T14:01:29+00:00 CRITICAL Uncaught Error: Class 'WR_Nitro' not found in /home/unitedar/oriontop.xyz/wp-content/plugins/nitro-toolkit/includes/shortcode/carousel.php:123
+Stack trace:
+#0 /home/unitedar/oriontop.xyz/wp-includes/shortcodes.php(343): Nitro_Toolkit_Shortcode_Carousel->generate_html(Array, '[vc_single_imag...', 'nitro_carousel')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unitedar/oriontop.xyz/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(nitro_...', 'do_shortcode_ta...', '<p>[vc_row flex...')
+#3 /home/unitedar/oriontop.xyz/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row flex...')
+#4 /home/unitedar/oriontop.xyz/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row flex...', Array)
+#5 /home/unitedar/oriontop.xyz/wp-content/plugins/wordpress-mobile-pack/export/class-export.php(1425): apply_filters('the_content', '[vc_row flexbox...')
+#6 /home/unitedar/oriontop.xyz/wp-content/plugins/wordpress-mobile-pack/export/content.php(59): WMobilePack_Export->export_pages()
+#7 {main in /home/unitedar/oriontop.xyz/wp-content/plugins/nitro-toolkit/includes/shortcode/carousel.php on line 123
+
+2020-05-29T14:01:40+00:00 CRITICAL Uncaught Error: Class 'WR_Nitro' not found in /home/unitedar/oriontop.xyz/wp-content/plugins/nitro-toolkit/includes/shortcode/carousel.php:123
+Stack trace:
+#0 /home/unitedar/oriontop.xyz/wp-includes/shortcodes.php(343): Nitro_Toolkit_Shortcode_Carousel->generate_html(Array, '[vc_single_imag...', 'nitro_carousel')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unitedar/oriontop.xyz/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(nitro_...', 'do_shortcode_ta...', '<p>[vc_row flex...')
+#3 /home/unitedar/oriontop.xyz/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row flex...')
+#4 /home/unitedar/oriontop.xyz/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row flex...', Array)
+#5 /home/unitedar/oriontop.xyz/wp-content/plugins/wordpress-mobile-pack/export/class-export.php(1425): apply_filters('the_content', '[vc_row flexbox...')
+#6 /home/unitedar/oriontop.xyz/wp-content/plugins/wordpress-mobile-pack/export/content.php(59): WMobilePack_Export->export_pages()
+#7 {main in /home/unitedar/oriontop.xyz/wp-content/plugins/nitro-toolkit/includes/shortcode/carousel.php on line 123
+

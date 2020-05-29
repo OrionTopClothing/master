@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Tue, 19 May 2020 22:45:43 +0000 on http://oriontop.xyz
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.24.24 WP: 5.4.1 PHP: 7.4.5 (litespeed, Linux lion2.sfdns.net 3.10.0-962.3.2.lve1.5.24.7.el7.x86_64 #1 SMP Mon Dec 17 11:06:40 EST 2018 x86_64) MySQL: 5.6.47-cll-lve WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 23.1M | 24M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.318 (1) Free space on disk containing Updraft's temporary directory: 572610.4 MB
+0000.320 (1) This backup task (e9e9fbaaeead) is either complete or began over 2 days ago: ending (1589928342.718, ) (existing jobdata keys: )

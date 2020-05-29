@@ -1,0 +1,19 @@
+
+.fhpc_tooltip,.fhpc_button,.fhpc_button:hover  {    
+    background-color: #1abc9c;
+}
+#fhpc_closeHelperBtn, .fhpc_text h2 {
+    color: #1abc9c !important;
+}
+.fhpc_dialog h3 {
+    color: #34495e !important;
+}
+.fhpc_tooltip[data-position="bottom"] .fhpc_arrow{
+    border-color: transparent transparent #1abc9c transparent !important;            
+}
+.fhpc_tooltip[data-position="top"] .fhpc_arrow{
+    border-color: #1abc9c transparent transparent transparent !important;            
+}
+.fhpc_text {
+    color: #f2f2f2 !important;
+}

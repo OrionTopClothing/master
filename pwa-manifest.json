@@ -1,0 +1,23 @@
+{
+    "name": "Orion Top Clothing",
+    "short_name": "Orion Top Clothing",
+    "description": "Best Fashion",
+    "icons": [
+        {
+            "src": "https:\/\/oriontop.xyz\/wp-content\/plugins\/pwa-for-wp\/images\/logo.png",
+            "sizes": "192x192",
+            "type": "image\/png"
+        },
+        {
+            "src": "https:\/\/oriontop.xyz\/wp-content\/plugins\/pwa-for-wp\/images\/logo-512x512.png",
+            "sizes": "512x512",
+            "type": "image\/png"
+        }
+    ],
+    "background_color": "#D5E0EB",
+    "theme_color": "#D5E0EB",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https:\/\/oriontop.xyz\/",
+    "scope": "https:\/\/oriontop.xyz\/"
+}

@@ -1,0 +1,140 @@
+#
+# Night Train <nighttrain@aruba.it>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nomorepass v1.0\n"
+"POT-Creation-Date: 2018-06-04 08:22+0200\n"
+"PO-Revision-Date: 2018-06-04 08:24+0200\n"
+"Last-Translator: Night Train <nighttrain@aruba.it>\n"
+"Language-Team: Italiano <nighttrain@aruba.it>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yesX-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: nomorepass.php:44
+msgid "Configuration"
+msgstr "Configurazione"
+
+#: nomorepass.php:45
+msgid "Options to configure"
+msgstr "Opzioni di configurazione"
+
+#: nomorepass.php:52
+msgid "Show login form"
+msgstr "Mostra campi di login"
+
+#: nomorepass.php:61 nomorepass.php:75 nomorepass.php:89 nomorepass.php:103
+#: nomorepass.php:117
+msgid "NO"
+msgstr "Non"
+
+#: nomorepass.php:62 nomorepass.php:76 nomorepass.php:90 nomorepass.php:104
+#: nomorepass.php:118
+msgid "YES"
+msgstr "Sì"
+
+#: nomorepass.php:64
+msgid "Show the user / password fields?"
+msgstr "Mostra i campi utente / password?"
+
+#: nomorepass.php:66
+msgid "Show password reset"
+msgstr "Mostra password in forma reset"
+
+#: nomorepass.php:78
+msgid "Show the password field when resetting password?"
+msgstr "Visualizzare il campo password quando si ripristina la password?"
+
+#: nomorepass.php:80
+msgid "Auto-launch QR"
+msgstr "Lancio automatico QR"
+
+#: nomorepass.php:92
+msgid "Launch the QR on loading login page?"
+msgstr "Visualizza il QR sul caricamento della pagina di login?"
+
+#: nomorepass.php:94
+msgid "Auto-login after registration"
+msgstr "Auto-login dopo la registrazione"
+
+#: nomorepass.php:106
+msgid "Auto-login after registration?"
+msgstr "Auto-login dopo la registrazione?"
+
+#: nomorepass.php:108
+msgid "NoMorePass Only"
+msgstr "Solo NoMorePass"
+
+#: nomorepass.php:120
+msgid "Only allow logins using NoMorePass?"
+msgstr "Consentire solo l' accesso utilizzando NoMorePass"
+
+#: nomorepass.php:124
+msgid "Custom button"
+msgstr "Pulsante personalizzato"
+
+#: nomorepass.php:143
+msgid "Upload"
+msgstr "Caricare"
+
+#: nomorepass.php:150 nomorepass.php:159
+msgid "Custom message"
+msgstr "Messaggio personalizzato"
+
+#: nomorepass.php:154 nomorepass.php:456
+msgid ""
+"Click on <a href=\"https://nomorepass.com\">NoMorePass</a> icon and use the "
+"qrcode to login"
+msgstr ""
+"Clicca sull'icona <a href=\"https://nomorepass.com\">NoMorePass</a> e usa il "
+"qrcode per effettuare il login"
+
+#: nomorepass.php:164
+msgid "More info"
+msgstr "Altre info"
+
+#: nomorepass.php:206 nomorepass.php:381
+msgid "Send to NoMorePass"
+msgstr "Invia al cellulare"
+
+#: nomorepass.php:240 nomorepass.php:427
+msgid ""
+"Click to scan with <a href=\"https://nomorepass.com\">NoMorePass</a> app and "
+"receive the password directly on your mobile phone"
+msgstr ""
+"Clicca per eseguire la scansione con l' applicazione <a href=\"https://"
+"nomorepass.com\">NoMorePass</a> e ricevi la password direttamente sul tuo "
+"cellulare"
+
+#: nomorepass.php:241
+msgid "New pass for account"
+msgstr "Nuovo pass per conto"
+
+#: nomorepass.php:261
+msgid "Enter using NoMorePass"
+msgstr "Accedi con NoMorePass"
+
+#: nomorepass.php:339
+msgid "Only NoMorePass login allowed."
+msgstr "Solo accesso NoMorePass consentito"
+
+#: nomorepass.php:446
+msgid "<strong>ERROR</strong>: Please, click the NoMorePass icon."
+msgstr "<strong>ERROR</strong>: Fare clic sull' icona NoMorePass."
+
+#~ msgid ""
+#~ "Click to scan with NoMorePass app and receive the password directly on "
+#~ "your mobile phone"
+#~ msgstr ""
+#~ "Clicca per eseguire la scansione con l' applicazione NoMorePass e ricevi "
+#~ "la password direttamente sul tuo cellulare"

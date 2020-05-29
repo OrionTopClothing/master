@@ -1,0 +1,304 @@
+0000.191 (0) Opened log file at time: Wed, 27 May 2020 16:09:09 +0000 on https://oriontop.xyz
+0000.194 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.24.24 WP: 5.4.1 PHP: 7.4.6 (litespeed, Linux lion2.sfdns.net 3.10.0-962.3.2.lve1.5.24.7.el7.x86_64 #1 SMP Mon Dec 17 11:06:40 EST 2018 x86_64) MySQL: 5.6.47-cll-lve WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 77.5M | 79M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.690 (0) Free space on disk containing Updraft's temporary directory: 609453.3 MB
+0001.103 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0001.105 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.126 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1590508865, seconds_ago=86885)
+0001.129 (0) Set semaphore last lock (fd) time to 2020-05-27 16:09:10
+0001.129 (0) Semaphore lock (fd) complete
+0001.132 (0) Backup run: resumption=0, nonce=f6a19caf50f8, file_nonce=f6a19caf50f8 begun at=1590595749 (1s ago), job type=backup
+0001.133 (0) Scheduling a resumption (1) after 300 seconds (1590596050) in case this run gets aborted
+0001.203 (0) Checking if we have a zip executable available
+0001.205 (0) Testing: /usr/bin/zip
+0001.215 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.216 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.226 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.226 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.227 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.237 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.238 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.289 (0) Working binary zip found: /usr/bin/zip
+0001.292 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.292 (0) Creation of backups of directories: beginning
+0001.294 (0) No backup of plugins: excluded by user's options
+0001.294 (0) No backup of themes: excluded by user's options
+0001.295 (0) No backup of uploads: excluded by user's options
+0001.296 (0) No backup of wpcore: excluded by user's options
+0001.297 (0) No backup of others: excluded by user's options
+0001.297 (0) No backup of more: excluded by user's options
+0001.300 (0) Saving backup status to database (elements: 0)
+0001.302 (0) Beginning creation of database dump (WordPress DB)
+0001.303 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0001.447 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1220 bytes total)
+0001.457 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0001.715 (0) Table wp_options: Total expected rows (approximate): 1372
+0002.144 (0) Table wp_options: Total rows added: 1736 in 0.43 seconds
+0002.146 (0) Table wp_options: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_options.table.gz - 794.8 KB)
+0002.159 (0) Table wp_users: Total expected rows (approximate): 0
+0002.162 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0002.163 (0) Table wp_users: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_users.table.gz - 0.7 KB)
+0002.172 (0) Table wp_usermeta: Total expected rows (approximate): 111
+0002.175 (0) Table wp_usermeta: Total rows added: 115 in 0.00 seconds
+0002.176 (0) Table wp_usermeta: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_usermeta.table.gz - 3.3 KB)
+0002.197 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 21
+0002.207 (0) Table wp_actionscheduler_actions: Total rows added: 21 in 0.01 seconds
+0002.208 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_actionscheduler_actions.table.gz - 1.3 KB)
+0002.213 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0002.215 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0002.216 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0002.219 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0002.222 (0) Table wp_actionscheduler_groups: Total rows added: 2 in 0.00 seconds
+0002.223 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0002.226 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 63
+0002.228 (0) Table wp_actionscheduler_logs: Total rows added: 63 in 0.00 seconds
+0002.229 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_actionscheduler_logs.table.gz - 1.1 KB)
+0002.239 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0002.246 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0002.247 (0) Table wp_commentmeta: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_commentmeta.table.gz - 0.3 KB)
+0002.254 (0) Table wp_comments: Total expected rows (approximate): 5
+0002.272 (0) Table wp_comments: Total rows added: 5 in 0.02 seconds
+0002.273 (0) Table wp_comments: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_comments.table.gz - 0.9 KB)
+0002.289 (0) Table wp_links: Total expected rows (approximate): 0
+0002.292 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0002.293 (0) Table wp_links: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_links.table.gz - 0.4 KB)
+0002.297 (0) Table wp_postmeta: Total expected rows (approximate): 8537
+0002.440 (0) Table wp_postmeta: binary mysqldump finished (writes: 33) in 0.14 seconds
+0002.443 (0) Table wp_postmeta: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_postmeta.table.gz - 125 KB)
+0002.448 (0) Table wp_posts: Total expected rows (approximate): 691
+0002.495 (0) Table wp_posts: Total rows added: 717 in 0.05 seconds
+0002.497 (0) Table wp_posts: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_posts.table.gz - 55 KB)
+0002.499 (0) Table wp_term_relationships: Total expected rows (approximate): 442
+0002.503 (0) Table wp_term_relationships: Total rows added: 451 in 0.00 seconds
+0002.504 (0) Table wp_term_relationships: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_term_relationships.table.gz - 1.5 KB)
+0002.512 (0) Table wp_term_taxonomy: Total expected rows (approximate): 80
+0002.515 (0) Table wp_term_taxonomy: Total rows added: 85 in 0.00 seconds
+0002.516 (0) Table wp_term_taxonomy: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_term_taxonomy.table.gz - 1 KB)
+0002.529 (0) Table wp_termmeta: Total expected rows (approximate): 121
+0002.531 (0) Table wp_termmeta: Total rows added: 126 in 0.00 seconds
+0002.532 (0) Table wp_termmeta: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_termmeta.table.gz - 1.4 KB)
+0002.535 (0) Table wp_terms: Total expected rows (approximate): 80
+0002.537 (0) Table wp_terms: Total rows added: 85 in 0.00 seconds
+0002.538 (0) Table wp_terms: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_terms.table.gz - 1.2 KB)
+0002.546 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0002.563 (0) Table wp_wc_category_lookup: Total rows added: 1 in 0.02 seconds
+0002.565 (0) Table wp_wc_category_lookup: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0002.580 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 27
+0002.606 (0) Table wp_wc_product_meta_lookup: Total rows added: 27 in 0.03 seconds
+0002.607 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_product_meta_lookup.table.gz - 0.7 KB)
+0002.638 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0002.642 (0) Table wp_wc_tax_rate_classes: Total rows added: 2 in 0.00 seconds
+0002.643 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0002.647 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 24
+0002.662 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 24 in 0.01 seconds
+0002.664 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_order_itemmeta.table.gz - 3.6 KB)
+0002.668 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 4
+0002.671 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 4 in 0.00 seconds
+0002.672 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0002.675 (0) Table wp_fhpc_items: Total expected rows (approximate): 0
+0002.678 (0) Table wp_fhpc_items: Total rows added: 1 in 0.00 seconds
+0002.679 (0) Table wp_fhpc_items: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fhpc_items.table.gz - 0.6 KB)
+0002.682 (0) Table wp_fhpc_settings: Total expected rows (approximate): 0
+0002.684 (0) Table wp_fhpc_settings: Total rows added: 1 in 0.00 seconds
+0002.685 (0) Table wp_fhpc_settings: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fhpc_settings.table.gz - 0.4 KB)
+0002.697 (0) Table wp_fhpc_steps: Total expected rows (approximate): 2
+0002.700 (0) Table wp_fhpc_steps: Total rows added: 2 in 0.00 seconds
+0002.701 (0) Table wp_fhpc_steps: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fhpc_steps.table.gz - 0.5 KB)
+0002.704 (0) Table wp_fpd_products: Total expected rows (approximate): 1
+0002.706 (0) Table wp_fpd_products: Total rows added: 1 in 0.00 seconds
+0002.707 (0) Table wp_fpd_products: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fpd_products.table.gz - 0.5 KB)
+0002.713 (0) Table wp_fpd_views: Total expected rows (approximate): 2
+0002.716 (0) Table wp_fpd_views: Total rows added: 2 in 0.00 seconds
+0002.717 (0) Table wp_fpd_views: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fpd_views.table.gz - 1.2 KB)
+0002.726 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0002.738 (0) Table wp_revslider_css: Total rows added: 109 in 0.01 seconds
+0002.740 (0) Table wp_revslider_css: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_css.table.gz - 4.8 KB)
+0002.754 (0) Table wp_revslider_css_bkp: Total expected rows (approximate): 109
+0002.786 (0) Table wp_revslider_css_bkp: Total rows added: 109 in 0.03 seconds
+0002.787 (0) Table wp_revslider_css_bkp: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_css_bkp.table.gz - 4.9 KB)
+0002.809 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0002.810 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0002.811 (0) Table wp_revslider_layer_animations: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0002.814 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (approximate): 0
+0002.816 (0) Table wp_revslider_layer_animations_bkp: Total rows added: 0 in 0.00 seconds
+0002.817 (0) Table wp_revslider_layer_animations_bkp: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_layer_animations_bkp.table.gz - 0.3 KB)
+0002.820 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0002.822 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0002.823 (0) Table wp_revslider_navigations: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0002.826 (0) Table wp_revslider_navigations_bkp: Total expected rows (approximate): 0
+0002.828 (0) Table wp_revslider_navigations_bkp: Total rows added: 0 in 0.00 seconds
+0002.829 (0) Table wp_revslider_navigations_bkp: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_navigations_bkp.table.gz - 0.3 KB)
+0002.832 (0) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0002.843 (0) Table wp_revslider_sliders: Total rows added: 1 in 0.01 seconds
+0002.844 (0) Table wp_revslider_sliders: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_sliders.table.gz - 3 KB)
+0002.857 (0) Table wp_revslider_sliders_bkp: Total expected rows (approximate): 0
+0002.863 (0) Table wp_revslider_sliders_bkp: Total rows added: 1 in 0.01 seconds
+0002.864 (0) Table wp_revslider_sliders_bkp: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_sliders_bkp.table.gz - 3.1 KB)
+0002.873 (0) Table wp_revslider_slides: Total expected rows (approximate): 2
+0002.901 (0) Table wp_revslider_slides: Total rows added: 2 in 0.03 seconds
+0002.902 (0) Table wp_revslider_slides: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_slides.table.gz - 6.7 KB)
+0002.906 (0) Table wp_revslider_slides_bkp: Total expected rows (approximate): 2
+0002.958 (0) Table wp_revslider_slides_bkp: Total rows added: 2 in 0.05 seconds
+0002.959 (0) Table wp_revslider_slides_bkp: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_slides_bkp.table.gz - 9 KB)
+0002.974 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0002.982 (0) Table wp_revslider_static_slides: Total rows added: 1 in 0.01 seconds
+0002.983 (0) Table wp_revslider_static_slides: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0002.999 (0) Table wp_revslider_static_slides_bkp: Total expected rows (approximate): 0
+0003.041 (0) Table wp_revslider_static_slides_bkp: Total rows added: 0 in 0.04 seconds
+0003.066 (0) Table wp_revslider_static_slides_bkp: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_static_slides_bkp.table.gz - 0.3 KB)
+0003.087 (0) Table wp_snp_log: Total expected rows (approximate): 0
+0003.095 (0) Table wp_snp_log: Total rows added: 0 in 0.01 seconds
+0003.097 (0) Table wp_snp_log: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_snp_log.table.gz - 0.4 KB)
+0003.104 (0) Table wp_snp_stats: Total expected rows (approximate): 17
+0003.121 (0) Table wp_snp_stats: Total rows added: 18 in 0.02 seconds
+0003.123 (0) Table wp_snp_stats: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_snp_stats.table.gz - 0.4 KB)
+0003.137 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 6
+0003.146 (0) Table wp_wc_admin_note_actions: Total rows added: 6 in 0.01 seconds
+0003.148 (0) Table wp_wc_admin_note_actions: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_admin_note_actions.table.gz - 0.7 KB)
+0003.179 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 5
+0003.186 (0) Table wp_wc_admin_notes: Total rows added: 5 in 0.00 seconds
+0003.188 (0) Table wp_wc_admin_notes: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_admin_notes.table.gz - 1 KB)
+0003.196 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 1
+0003.200 (0) Table wp_wc_customer_lookup: Total rows added: 1 in 0.00 seconds
+0003.201 (0) Table wp_wc_customer_lookup: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_customer_lookup.table.gz - 0.6 KB)
+0003.205 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0003.214 (0) Table wp_wc_download_log: Total rows added: 0 in 0.01 seconds
+0003.215 (0) Table wp_wc_download_log: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0003.219 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0003.222 (0) Table wp_wc_order_coupon_lookup: Total rows added: 0 in 0.00 seconds
+0003.223 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0003.226 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0003.229 (0) Table wp_wc_order_product_lookup: Total rows added: 2 in 0.00 seconds
+0003.230 (0) Table wp_wc_order_product_lookup: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_order_product_lookup.table.gz - 0.5 KB)
+0003.234 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0003.237 (0) Table wp_wc_order_stats: Total rows added: 2 in 0.00 seconds
+0003.238 (0) Table wp_wc_order_stats: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_order_stats.table.gz - 0.6 KB)
+0003.247 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0003.249 (0) Table wp_wc_order_tax_lookup: Total rows added: 0 in 0.00 seconds
+0003.250 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0003.263 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0003.272 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.01 seconds
+0003.273 (0) Table wp_wc_webhooks: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0003.300 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0003.314 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.01 seconds
+0003.315 (0) Table wp_woocommerce_api_keys: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0003.319 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 3
+0003.322 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 4 in 0.00 seconds
+0003.323 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.5 KB)
+0003.342 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0003.345 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0003.346 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0003.350 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0003.359 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.01 seconds
+0003.360 (0) Table wp_woocommerce_log: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0003.364 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0003.367 (0) Table wp_woocommerce_order_items: Total rows added: 2 in 0.00 seconds
+0003.368 (0) Table wp_woocommerce_order_items: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0003.371 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0003.374 (0) Table wp_woocommerce_payment_tokens: Total rows added: 1 in 0.00 seconds
+0003.375 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0003.379 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 2
+0003.381 (0) Table wp_woocommerce_sessions: Total rows added: 0 in 0.00 seconds
+0003.382 (0) Table wp_woocommerce_sessions: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_sessions.table.gz - 0.3 KB)
+0003.385 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0003.387 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0003.388 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.3 KB)
+0003.391 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0003.393 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0003.394 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.3 KB)
+0003.397 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0003.399 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0003.400 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0003.405 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0003.407 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0003.407 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.3 KB)
+0003.411 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0003.413 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0003.413 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0003.416 (0) Table wp_woof_query_cache: Total expected rows (approximate): 0
+0003.418 (0) Table wp_woof_query_cache: Total rows added: 0 in 0.00 seconds
+0003.419 (0) Table wp_woof_query_cache: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woof_query_cache.table.gz - 0.3 KB)
+0003.464 (0) Table wp_yith_wcwl: Total expected rows (approximate): 0
+0003.482 (0) Table wp_yith_wcwl: Total rows added: 1 in 0.01 seconds
+0003.483 (0) Table wp_yith_wcwl: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_yith_wcwl.table.gz - 0.5 KB)
+0003.496 (0) Table wp_yith_wcwl_lists: Total expected rows (approximate): 2
+0003.499 (0) Table wp_yith_wcwl_lists: Total rows added: 2 in 0.00 seconds
+0003.501 (0) Table wp_yith_wcwl_lists: finishing file (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_yith_wcwl_lists.table.gz - 0.6 KB)
+0003.504 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_options.table.gz (1/64): adding to final database dump
+0003.721 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_users.table.gz (2/64): adding to final database dump
+0003.722 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_usermeta.table.gz (3/64): adding to final database dump
+0003.724 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_actionscheduler_actions.table.gz (4/64): adding to final database dump
+0003.725 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_actionscheduler_claims.table.gz (5/64): adding to final database dump
+0003.726 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_actionscheduler_groups.table.gz (6/64): adding to final database dump
+0003.727 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_actionscheduler_logs.table.gz (7/64): adding to final database dump
+0003.728 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_commentmeta.table.gz (8/64): adding to final database dump
+0003.729 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_comments.table.gz (9/64): adding to final database dump
+0003.730 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_links.table.gz (10/64): adding to final database dump
+0003.731 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_postmeta.table.gz (11/64): adding to final database dump
+0003.772 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_posts.table.gz (12/64): adding to final database dump
+0003.789 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_term_relationships.table.gz (13/64): adding to final database dump
+0003.790 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_term_taxonomy.table.gz (14/64): adding to final database dump
+0003.792 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_termmeta.table.gz (15/64): adding to final database dump
+0003.794 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_terms.table.gz (16/64): adding to final database dump
+0003.795 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_category_lookup.table.gz (17/64): adding to final database dump
+0003.796 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_product_meta_lookup.table.gz (18/64): adding to final database dump
+0003.797 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_tax_rate_classes.table.gz (19/64): adding to final database dump
+0003.798 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_order_itemmeta.table.gz (20/64): adding to final database dump
+0003.800 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_payment_tokenmeta.table.gz (21/64): adding to final database dump
+0003.801 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fhpc_items.table.gz (22/64): adding to final database dump
+0003.802 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fhpc_settings.table.gz (23/64): adding to final database dump
+0003.803 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fhpc_steps.table.gz (24/64): adding to final database dump
+0003.804 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fpd_products.table.gz (25/64): adding to final database dump
+0003.804 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_fpd_views.table.gz (26/64): adding to final database dump
+0003.805 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_css.table.gz (27/64): adding to final database dump
+0003.808 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_css_bkp.table.gz (28/64): adding to final database dump
+0003.810 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_layer_animations.table.gz (29/64): adding to final database dump
+0003.811 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_layer_animations_bkp.table.gz (30/64): adding to final database dump
+0003.812 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_navigations.table.gz (31/64): adding to final database dump
+0003.813 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_navigations_bkp.table.gz (32/64): adding to final database dump
+0003.814 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_sliders.table.gz (33/64): adding to final database dump
+0003.815 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_sliders_bkp.table.gz (34/64): adding to final database dump
+0003.816 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_slides.table.gz (35/64): adding to final database dump
+0003.819 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_slides_bkp.table.gz (36/64): adding to final database dump
+0003.824 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_static_slides.table.gz (37/64): adding to final database dump
+0003.825 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_revslider_static_slides_bkp.table.gz (38/64): adding to final database dump
+0003.826 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_snp_log.table.gz (39/64): adding to final database dump
+0003.827 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_snp_stats.table.gz (40/64): adding to final database dump
+0003.828 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_admin_note_actions.table.gz (41/64): adding to final database dump
+0003.829 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_admin_notes.table.gz (42/64): adding to final database dump
+0003.830 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_customer_lookup.table.gz (43/64): adding to final database dump
+0003.830 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_download_log.table.gz (44/64): adding to final database dump
+0003.831 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_order_coupon_lookup.table.gz (45/64): adding to final database dump
+0003.832 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_order_product_lookup.table.gz (46/64): adding to final database dump
+0003.833 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_order_stats.table.gz (47/64): adding to final database dump
+0003.834 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_order_tax_lookup.table.gz (48/64): adding to final database dump
+0003.835 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_wc_webhooks.table.gz (49/64): adding to final database dump
+0003.836 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_api_keys.table.gz (50/64): adding to final database dump
+0003.837 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_attribute_taxonomies.table.gz (51/64): adding to final database dump
+0003.837 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (52/64): adding to final database dump
+0003.838 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_log.table.gz (53/64): adding to final database dump
+0003.839 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_order_items.table.gz (54/64): adding to final database dump
+0003.840 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_payment_tokens.table.gz (55/64): adding to final database dump
+0003.840 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_sessions.table.gz (56/64): adding to final database dump
+0003.841 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_shipping_zone_locations.table.gz (57/64): adding to final database dump
+0003.842 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_shipping_zone_methods.table.gz (58/64): adding to final database dump
+0003.843 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_shipping_zones.table.gz (59/64): adding to final database dump
+0003.843 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_tax_rate_locations.table.gz (60/64): adding to final database dump
+0003.844 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woocommerce_tax_rates.table.gz (61/64): adding to final database dump
+0003.845 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_woof_query_cache.table.gz (62/64): adding to final database dump
+0003.846 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_yith_wcwl.table.gz (63/64): adding to final database dump
+0003.847 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db-table-wp_yith_wcwl_lists.table.gz (64/64): adding to final database dump
+0003.851 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db.gz: finished writing out complete database file (1008 KB)
+0003.869 (0) Total database tables backed up: 64 (backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db.gz, size: 1049381, sha1: 806ddb1f0b8ae5f5eef9c1dfbc237fe339a0877d, sha256: 3cd6ffb7ec6ba0463bb9cca8ea62112b5278ee77faf1dad69650be760576961b)
+0003.874 (0) backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.875 (0) Saving backup history. Total backup size: 1 MB
+0003.877 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0003.879 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.880 (0) No remote despatch: user chose no remote backup service
+0003.881 (0) Recording as successfully uploaded: backup_2020-05-28-0009_Orion_Top_Clothing_f6a19caf50f8-db.gz
+0003.883 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0003.883 (0) Resume backup (f6a19caf50f8, 0): finish run
+0003.885 (0) Decremented the semaphore (fd) by 1
+0003.886 (0) Semaphore (fd) unlocked
+0003.887 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0003.889 (0) No email will/can be sent - the user has not configured an email address.
+0003.890 (0) The backup apparently succeeded and is now complete

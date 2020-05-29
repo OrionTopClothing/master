@@ -1,0 +1,139 @@
+[19-May-2020 22:14:59 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[19-May-2020 22:26:50 UTC] PHP Warning:  Creating default object from empty value in /home/unitedar/oriontop.xyz/wp-content/plugins/wp-rocket/inc/Engine/Admin/Settings/Page.php on line 193
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_fhpc_items' for query SELECT COUNT(*) FROM wp_fhpc_items USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_fhpc_settings' for query SELECT COUNT(*) FROM wp_fhpc_settings USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_fhpc_steps' for query SELECT COUNT(*) FROM wp_fhpc_steps USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_css' for query SELECT COUNT(*) FROM wp_revslider_css USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_css_bkp' for query SELECT COUNT(*) FROM wp_revslider_css_bkp USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_layer_animations' for query SELECT COUNT(*) FROM wp_revslider_layer_animations USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_layer_animations_bkp' for query SELECT COUNT(*) FROM wp_revslider_layer_animations_bkp USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_navigations' for query SELECT COUNT(*) FROM wp_revslider_navigations USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_navigations_bkp' for query SELECT COUNT(*) FROM wp_revslider_navigations_bkp USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_sliders' for query SELECT COUNT(*) FROM wp_revslider_sliders USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_sliders_bkp' for query SELECT COUNT(*) FROM wp_revslider_sliders_bkp USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:43 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_slides' for query SELECT COUNT(*) FROM wp_revslider_slides USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:44 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_slides_bkp' for query SELECT COUNT(*) FROM wp_revslider_slides_bkp USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:44 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_static_slides' for query SELECT COUNT(*) FROM wp_revslider_static_slides USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:44 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_revslider_static_slides_bkp' for query SELECT COUNT(*) FROM wp_revslider_static_slides_bkp USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 22:44:44 UTC] WordPress database error Key 'PRIMARY' doesn't exist in table 'wp_snp_stats' for query SELECT COUNT(*) FROM wp_snp_stats USE INDEX (PRIMARY) made by do_action('wp_ajax_updraft_ajaxrestore'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajaxrestore, UpdraftPlus_Admin->prepare_restore, UpdraftPlus_Admin->restore_backup, Updraft_Restorer->perform_restore, Updraft_Restorer->restore_backup, Updraft_Restorer->restore_backup_db, Updraft_Restorer->prepare_create_table, Updraft_Restorer->restored_table, do_action('updraftplus_restored_db_table'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Addons_Migrator->updraftplus_restored_db_table, UpdraftPlus_Addons_Migrator->_migrator_icit_srdb_replacer
+[19-May-2020 23:48:35 UTC] PHP Warning:  Creating default object from empty value in /home/unitedar/oriontop.xyz/wp-content/plugins/wp-rocket/inc/Engine/Admin/Settings/Page.php on line 193
+[20-May-2020 14:42:45 UTC] PHP Warning:  A non-numeric value encountered in /home/unitedar/oriontop.xyz/wp-content/plugins/nitro-toolkit/includes/shortcode/masonry.php on line 75
+[20-May-2020 14:42:45 UTC] PHP Warning:  A non-numeric value encountered in /home/unitedar/oriontop.xyz/wp-content/plugins/nitro-toolkit/includes/shortcode/masonry.php on line 79
+[29-May-2020 13:48:46 UTC] PHP Warning:  Use of undefined constant drop - assumed 'drop' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 116
+[29-May-2020 13:48:46 UTC] PHP Warning:  Use of undefined constant bubble - assumed 'bubble' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 117
+[29-May-2020 13:48:46 UTC] PHP Warning:  Use of undefined constant fade - assumed 'fade' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 118
+[29-May-2020 13:48:46 UTC] PHP Warning:  Use of undefined constant drop - assumed 'drop' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 127
+[29-May-2020 13:48:46 UTC] PHP Warning:  Use of undefined constant bubble - assumed 'bubble' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 128
+[29-May-2020 13:48:46 UTC] PHP Warning:  Use of undefined constant fade - assumed 'fade' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 129
+[29-May-2020 13:48:46 UTC] PHP Warning:  Use of undefined constant homeonly - assumed 'homeonly' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 220
+[29-May-2020 13:48:46 UTC] PHP Warning:  Use of undefined constant allpages - assumed 'allpages' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 221
+[29-May-2020 13:49:12 UTC] PHP Warning:  Use of undefined constant drop - assumed 'drop' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 116
+[29-May-2020 13:49:12 UTC] PHP Warning:  Use of undefined constant bubble - assumed 'bubble' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 117
+[29-May-2020 13:49:12 UTC] PHP Warning:  Use of undefined constant fade - assumed 'fade' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 118
+[29-May-2020 13:49:12 UTC] PHP Warning:  Use of undefined constant drop - assumed 'drop' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 127
+[29-May-2020 13:49:12 UTC] PHP Warning:  Use of undefined constant bubble - assumed 'bubble' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 128
+[29-May-2020 13:49:12 UTC] PHP Warning:  Use of undefined constant fade - assumed 'fade' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 129
+[29-May-2020 13:49:12 UTC] PHP Warning:  Use of undefined constant homeonly - assumed 'homeonly' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 220
+[29-May-2020 13:49:12 UTC] PHP Warning:  Use of undefined constant allpages - assumed 'allpages' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 221
+[29-May-2020 13:50:10 UTC] PHP Warning:  Use of undefined constant drop - assumed 'drop' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 116
+[29-May-2020 13:50:10 UTC] PHP Warning:  Use of undefined constant bubble - assumed 'bubble' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 117
+[29-May-2020 13:50:10 UTC] PHP Warning:  Use of undefined constant fade - assumed 'fade' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 118
+[29-May-2020 13:50:10 UTC] PHP Warning:  Use of undefined constant drop - assumed 'drop' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 127
+[29-May-2020 13:50:10 UTC] PHP Warning:  Use of undefined constant bubble - assumed 'bubble' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 128
+[29-May-2020 13:50:10 UTC] PHP Warning:  Use of undefined constant fade - assumed 'fade' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 129
+[29-May-2020 13:50:10 UTC] PHP Warning:  Use of undefined constant homeonly - assumed 'homeonly' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 220
+[29-May-2020 13:50:10 UTC] PHP Warning:  Use of undefined constant allpages - assumed 'allpages' (this will throw an Error in a future version of PHP) in /home/unitedar/oriontop.xyz/wp-content/plugins/add-to-home-screen-wp/options.php on line 221
+[29-May-2020 13:53:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/unitedar/oriontop.xyz/wp-content/plugins/pwa-for-wp/admin/common-function.php on line 303
+[29-May-2020 14:02:21 UTC] PHP Warning:  rmdir(/home/unitedar/oriontop.xyz/wp-content/uploads/wordpress-mobile-pack/): Directory not empty in /home/unitedar/oriontop.xyz/wp-content/plugins/wordpress-mobile-pack/inc/class-wmp-uploads.php on line 174
+[29-May-2020 14:14:47 UTC] iteration 1
+[29-May-2020 14:14:47 UTC] generating web page list
+[29-May-2020 14:14:49 UTC] iteration 2
+[29-May-2020 14:14:49 UTC] searching js css files and external resources
+[29-May-2020 14:14:52 UTC] iteration 2
+[29-May-2020 14:14:52 UTC] searching js css files and external resources
+[29-May-2020 14:14:54 UTC] iteration 3
+[29-May-2020 14:14:54 UTC] searching mixed content in js and css files
+[29-May-2020 14:14:54 UTC] http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css does not exist
+[29-May-2020 14:14:57 UTC] iteration 3
+[29-May-2020 14:14:57 UTC] searching mixed content in js and css files
+[29-May-2020 14:15:00 UTC] iteration 3
+[29-May-2020 14:15:00 UTC] searching mixed content in js and css files
+[29-May-2020 14:15:00 UTC] http://apis.google.com/js/api:client.js does not exist
+[29-May-2020 14:15:05 UTC] iteration 4
+[29-May-2020 14:15:05 UTC] generating file list
+[29-May-2020 14:15:06 UTC] iteration 5
+[29-May-2020 14:15:06 UTC] checking which posts contain external resources
+[29-May-2020 14:15:09 UTC] iteration 6
+[29-May-2020 14:15:09 UTC] checking which widgets contain external resources
+[29-May-2020 14:15:12 UTC] iteration 7
+[29-May-2020 14:15:12 UTC] checking which postmeta tables contain external resources
+[29-May-2020 14:15:15 UTC] iteration 8
+[29-May-2020 14:15:15 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:19 UTC] iteration 8
+[29-May-2020 14:15:19 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:21 UTC] iteration 8
+[29-May-2020 14:15:21 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:24 UTC] iteration 8
+[29-May-2020 14:15:24 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:27 UTC] iteration 8
+[29-May-2020 14:15:27 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:31 UTC] iteration 8
+[29-May-2020 14:15:31 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:34 UTC] iteration 8
+[29-May-2020 14:15:34 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:36 UTC] iteration 8
+[29-May-2020 14:15:36 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:40 UTC] iteration 8
+[29-May-2020 14:15:40 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:42 UTC] iteration 8
+[29-May-2020 14:15:42 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:45 UTC] iteration 8
+[29-May-2020 14:15:45 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:48 UTC] iteration 8
+[29-May-2020 14:15:48 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:51 UTC] iteration 8
+[29-May-2020 14:15:51 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:52 UTC] iteration 8
+[29-May-2020 14:15:52 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:55 UTC] iteration 8
+[29-May-2020 14:15:55 UTC] checking if external resources can load over ssl
+[29-May-2020 14:15:59 UTC] iteration 8
+[29-May-2020 14:15:59 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:02 UTC] iteration 8
+[29-May-2020 14:16:02 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:04 UTC] iteration 8
+[29-May-2020 14:16:04 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:07 UTC] iteration 8
+[29-May-2020 14:16:07 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:11 UTC] iteration 8
+[29-May-2020 14:16:11 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:14 UTC] iteration 8
+[29-May-2020 14:16:14 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:17 UTC] iteration 8
+[29-May-2020 14:16:17 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:19 UTC] iteration 8
+[29-May-2020 14:16:19 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:22 UTC] iteration 8
+[29-May-2020 14:16:22 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:25 UTC] iteration 8
+[29-May-2020 14:16:25 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:28 UTC] iteration 8
+[29-May-2020 14:16:28 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:31 UTC] iteration 8
+[29-May-2020 14:16:31 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:34 UTC] iteration 8
+[29-May-2020 14:16:34 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:37 UTC] iteration 8
+[29-May-2020 14:16:37 UTC] checking if external resources can load over ssl
+[29-May-2020 14:16:41 UTC] iteration 9
+[29-May-2020 14:16:41 UTC] checking if external js or css files contain http links
+[29-May-2020 14:16:43 UTC] iteration 10
+[29-May-2020 14:16:43 UTC] Looking up blocked resources in files
+[29-May-2020 14:16:47 UTC] iteration 11
+[29-May-2020 14:16:47 UTC] Looking up blocked resources in posts
+[29-May-2020 14:16:49 UTC] iteration 12
+[29-May-2020 14:16:49 UTC] Looking up blocked resources in postmeta
+[29-May-2020 14:16:54 UTC] iteration 13
+[29-May-2020 14:16:54 UTC] looking up widgets with blocked resources
+[29-May-2020 14:16:56 UTC] iteration 14
+[29-May-2020 14:23:39 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/unitedar/oriontop.xyz/wp-content/plugins/pwa-for-wp/admin/common-function.php on line 303
